@@ -141,7 +141,7 @@
     }
 
     @include on-large-desktop {
-      margin-bottom: 247px;
+      margin-bottom: 237px;
     }
   }
 
@@ -211,11 +211,11 @@
       z-index: 1;
       right: 0;
 
-      overflow: hidden;
-
       width: 60%;
       min-width: 486px;
       height: 219px;
+
+      object-fit: contain;
     }
 
     @include on-small-desktop {
