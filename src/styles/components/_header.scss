@@ -141,6 +141,7 @@
     }
 
     @include on-large-desktop {
+      gap: 100px;
       margin-bottom: 237px;
     }
   }
