@@ -181,6 +181,21 @@
       border-bottom-color: $color-accent;
     }
 
+    &:-webkit-autofill + .footer__label {
+      top: 0;
+      font-size: 12px;
+      color: $color-accent;
+    }
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus {
+      -webkit-box-shadow: 0 0 0 1000px #05040b inset;
+      transition: background-color 5000s ease-in-out 0s;
+
+      -webkit-text-fill-color: $white;
+    }
+
     &:focus + .footer__label,
     &:not(:placeholder-shown) + .footer__label {
       top: 0;

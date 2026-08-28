@@ -482,6 +482,12 @@ window.addEventListener('resize', () => {
   FOOTER
 ========================= */
 
+const footerForm = document.querySelector('.footer__form');
+
+footerForm?.addEventListener('submit', (event) => {
+  event.preventDefault();
+});
+
 document.querySelectorAll('.footer__field').forEach((field) => {
   const input = field.querySelector('.footer__input, .footer__textarea');
   const label = field.querySelector(
