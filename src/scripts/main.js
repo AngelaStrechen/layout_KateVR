@@ -199,11 +199,11 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!section) return;
 
   const images = [
-    './src/images/about-us/image.jpg',
-    './src/images/about-us/image-2.jpg',
-    './src/images/about-us/image-3.jpg',
-    './src/images/about-us/image-4.jpg',
-    './src/images/about-us/image-5.jpg',
+    '/src/images/about-us/image.jpg',
+    '/src/images/about-us/image-2.jpg',
+    '/src/images/about-us/image-3.jpg',
+    '/src/images/about-us/image-4.jpg',
+    '/src/images/about-us/image-5.jpg',
   ];
 
   const image = section.querySelector('.about-product__image');
