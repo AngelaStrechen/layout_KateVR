@@ -1,5 +1,15 @@
 'use strict';
 
+import headerImage1 from '../images/header-images/image-mobile-1.png';
+import headerImage2 from '../images/header-images/image-mobile-2.png';
+import headerImage3 from '../images/header-images/image-mobile-3.png';
+
+import aboutImage1 from '../images/about-us/image.jpg';
+import aboutImage2 from '../images/about-us/image-2.jpg';
+import aboutImage3 from '../images/about-us/image-3.jpg';
+import aboutImage4 from '../images/about-us/image-4.jpg';
+import aboutImage5 from '../images/about-us/image-5.jpg';
+
 /* =========================
    VIDEO MODAL
 ========================= */
@@ -134,11 +144,7 @@ moreButton?.addEventListener('click', () => {
 ========================= */
 
 document.addEventListener('DOMContentLoaded', () => {
-  const images = [
-    './src/images/header-images/image-mobile.png',
-    './src/images/header-images/image-mobile.png',
-    './src/images/header-images/image-mobile.png',
-  ];
+  const images = [headerImage1, headerImage2, headerImage3];
 
   const image = document.querySelector('.header__image');
 
@@ -199,11 +205,11 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!section) return;
 
   const images = [
-    '/src/images/about-us/image.jpg',
-    '/src/images/about-us/image-2.jpg',
-    '/src/images/about-us/image-3.jpg',
-    '/src/images/about-us/image-4.jpg',
-    '/src/images/about-us/image-5.jpg',
+    aboutImage1,
+    aboutImage2,
+    aboutImage3,
+    aboutImage4,
+    aboutImage5,
   ];
 
   const image = section.querySelector('.about-product__image');
